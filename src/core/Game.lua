@@ -1,5 +1,5 @@
 local SceneManager = require("src.core.SceneManager")
-local GameScene = require("src.scenes.GameScene")
+local TitleScene = require("src.scenes.TitleScene")
 
 local Game = {}
 Game.__index = Game
@@ -11,7 +11,7 @@ function Game.new()
 end
 
 function Game:load()
-    self.sceneManager:setScene(GameScene.new())
+    self.sceneManager:setScene(TitleScene.new())
 end
 
 function Game:update(dt)
@@ -24,6 +24,10 @@ end
 
 function Game:keypressed(key)
     self.sceneManager:keypressed(key)
+end
+
+function Game:mousepressed(x,y,button)
+    self.sceneManager:mousepressed(x,y,button)
 end
 
 return Game
