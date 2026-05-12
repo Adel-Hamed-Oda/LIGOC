@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Logic Gates Game",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "\"${workspaceFolder}\\tools\\love2d\\love.exe\" \"${workspaceFolder}.\""
+        }
+    ]
+}

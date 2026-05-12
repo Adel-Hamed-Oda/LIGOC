@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Logic Gates Game",
+            "type": "shell",
+            "command": "${workspaceFolder}\\tools\\love2d\\love.exe",
+            "args": ["${workspaceFolder}."],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
