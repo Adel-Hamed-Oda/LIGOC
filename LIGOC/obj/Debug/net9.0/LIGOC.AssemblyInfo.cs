@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LIGOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bddcfad60a6fe1b8b043ad7536c223f85a34846e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+351bf6a0a74cb2ad8c91a0d9ca62ed0569eee1dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("LIGOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LIGOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
